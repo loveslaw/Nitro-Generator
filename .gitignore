@@ -1,0 +1,5 @@
+node_modules/
+valid_codes.txt
+proxies.txt
+.env
+*.log

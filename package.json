@@ -1,0 +1,22 @@
+{
+  "name": "discord-nitro-generator",
+  "version": "1.0.0",
+  "description": "High-speed multi-threaded Discord Nitro generator and checker with proxy support",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "discord",
+    "nitro",
+    "generator",
+    "checker"
+  ],
+  "author": "loveslaw",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "chalk": "^4.1.2",
+    "js-yaml": "^4.1.0"
+  }
+}

@@ -1,0 +1,23 @@
+# ==========================================
+# Discord Nitro Generator & Checker Config
+# ==========================================
+
+settings:
+  threads: 5               # Number of concurrent workers
+  check_delay_ms: 150      # Delay between requests per thread to respect rate limits
+  code_length: 16          # 16 characters for classic Nitro, 24 for boost codes
+  code_prefix: "https://discord.gift/"
+
+proxies:
+  enabled: false           # Set to true when using proxy list
+  proxy_file: "proxies.txt"
+
+webhook:
+  enabled: true
+  url: "https://discord.com/api/webhooks/REPLACE_WITH_YOUR_WEBHOOK_URL"
+  mention_on_hit: "@everyone"
+
+logging:
+  log_invalid: false      # Print invalid codes to console
+  save_valid: true
+  output_file: "valid_codes.txt"
